@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Xms2Ugup9IB0QDoH731Q">
+    <mxGraphModel dx="1094" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="External Entity&lt;div&gt;(Customer)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-4" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-3" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="220" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="[Process 1.0]&lt;div&gt;Validate User&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-9" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-10" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="1xpNFa2Ah-Yhh7SDuArA-5" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.2182" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="190" />
+            </Array>
+            <mxPoint x="400" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="(Data Store 1)&lt;div&gt;Customer details&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-11" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-5" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="220" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ephemeral Address                             Browser Automation&lt;br&gt;   Provisioning&amp;nbsp;&lt;div&gt;[Process 2.0]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-13" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-12" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="220" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-20" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="510" />
+              <mxPoint x="220" y="510" />
+            </Array>
+            <mxPoint x="220" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Store 2&lt;div&gt;(Redis 7.0 cache&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="User Request" vertex="1">
+          <mxGeometry height="20" width="50" x="165" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Confirmed User" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Create&lt;div&gt;Stream&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="165" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="alias Token" vertex="1">
+          <mxGeometry height="30" width="60" x="215" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Verify&lt;div&gt;Tokens&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Route levels" vertex="1">
+          <mxGeometry height="30" width="60" x="210" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Inbound Mail&lt;div&gt;Processing and Routing&lt;/div&gt;&lt;div&gt;[Process 3.0]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cloud inbox Inspection&lt;div&gt;[process 4.0]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-26" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="1xpNFa2Ah-Yhh7SDuArA-24">
+          <mxGeometry relative="1" x="-0.3108" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-28" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="1xpNFa2Ah-Yhh7SDuArA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;br&gt;Cloud Edge SMTP Nodes&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Unverified Payload data" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Safe Inbound Stream" vertex="1">
+          <mxGeometry height="30" width="60" x="225" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-31" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-24" style="endArrow=classic;startArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="1xpNFa2Ah-Yhh7SDuArA-34" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.2558" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="540" />
+            </Array>
+            <mxPoint x="540" y="700" as="sourcePoint" />
+            <mxPoint x="520" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Read config" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="System Rules" vertex="1">
+          <mxGeometry height="30" width="60" x="630" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-35" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="1xpNFa2Ah-Yhh7SDuArA-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data store 3" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Map weights" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Extract&amp;nbsp;&lt;div&gt;and&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(Postgresql 15+ Configs )" vertex="1">
+          <mxGeometry height="30" width="60" x="710" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-47" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="1xpNFa2Ah-Yhh7SDuArA-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="310" />
+              <mxPoint x="750" y="170" />
+            </Array>
+            <mxPoint x="780" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Browser Automation and parsing engine" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-43" edge="1" parent="1" source="1xpNFa2Ah-Yhh7SDuArA-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="1xpNFa2Ah-Yhh7SDuArA-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="External webpage" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Form Structures" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Form&lt;div&gt;Injection&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="750" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1xpNFa2Ah-Yhh7SDuArA-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;LEVEL : 1&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="354" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
